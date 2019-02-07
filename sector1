@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="">
+
+    <title>The TA's Journey :: Introduction</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="journey.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+    </header>
+
+    <div class="mySideBar">
+      <h1>The TA's Journey</h1>
+	  <h3>
+		<ul>
+			<li><a href="map.html">WORLD MAP</a></li>
+			<li>ABOUT</li>
+			<li>CONTACT</li>
+			<li>INFO</li>
+		</ul>
+	  </h3>
+    </div>
+
+    <div class="dimmer">
+
+    </div>
+
+    <div class="dimmer2">
+
+    </div>
+
+    <div class="container myContainer">
+    </div>
+
+    <div class="myNav">
+      <div class="row">
+        <div class="col-lg-2 col-md-2">
+         <img class="navBtn " src="Ham.png"/>
+        </div>
+
+        <div class="col-lg-10 col-md-10">
+		     <!-- <h2 class="">The TA's Journey</h2> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation ends here -->
+
+    <!-- View Box Starts here -->
+    <div class="container viewBox">
+
+      <div class="character" id="mathematician">
+        <div class="chatBox" id="I-1chatBox1">
+          <h3>Hello. I'm the Mathematician.</h3>
+        </div>
+      </div>
+
+      <div class="characterLeft" id="teacher">
+        <div class="chatBoxLeft" id="I-1chatBox2">
+          <h3>Hi there! I'm the Teacher!</h3>
+        </div>
+      </div>
+
+      <div class="container contentBox">
+
+        <!-- FIRST PAGE -->
+        <div id="contentS1-1">
+          <h1>INTRODUCTION</h1>
+          <h2 class="firstH2">Page 1</h2>
+          <button id="nextBtnS1-1" class="btn btn-large" style="color: black">NEXT</button>
+        </div>
+
+        <!-- SECOMD PAGE -->
+        <div id="contentS1-2">
+          <h2 class="firstH2">Page 2</h2>
+          <button id="backBtnS1-2" class="btn btn-large" style="color: black">BACK</button>
+          <button id="nextBtnS1-2" class="btn btn-large" style="color: black">NEXT</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="journey.js"></script>
+  </body>
+</html>
